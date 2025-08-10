@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fa;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+input, select, button {
+    font-size: 1.2em;
+    margin: 10px;
+    padding: 8px;
+}
+
+.unit-select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#switchBtn {
+    background: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+#switchBtn:hover {
+    background: #357ABD;
+}
+
+#result {
+    margin-top: 15px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#history {
+    list-style: none;
+    padding: 0;
+    font-family: monospace;
+}

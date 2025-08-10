@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Temp Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<form>
+    <h1>🌡 Advanced Temp Converter</h1>
+
+    <input type="number" id="inputTemp" placeholder="Enter value" />
+
+    <div class="unit-select">
+        <select id="fromUnit">
+            <option value="C">Celsius (°C)</option>
+            <option value="F">Fahrenheit (°F)</option>
+            <option value="K">Kelvin (K)</option>
+        </select>
+
+        <button type="button" id="switchBtn">⇄</button>
+
+        <select id="toUnit">
+            <option value="F">Fahrenheit (°F)</option>
+            <option value="C">Celsius (°C)</option>
+            <option value="K">Kelvin (K)</option>
+        </select>
+    </div>
+
+    <p id="result">Converted value will appear here</p>
+
+    <h3>History</h3>
+    <ul id="history"></ul>
+</form>
+
+<script src="index.js"></script>
+</body>
+</html>
